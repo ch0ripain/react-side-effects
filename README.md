@@ -1,2 +1,1 @@
-# react-side-effects
-🧙‍♂️ Handling side effects with useEffect 🧙‍♂️
+### 🧙‍♂️ Handling side effects with useEffect 🧙‍♂️
