@@ -72,6 +72,7 @@ useEffect(() => {
   }, []);
 ```
 The cleanup function runs either when the component is unmounted or before the effect re-runs. This ensures that we don’t leave unnecessary intervals or subscriptions running in the background, which could cause performance issues.
+
 ---
 
 <p align="center">🌟 This project is a practice exercise I learned from the <a href='https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=ST7MT110524'>Academind's React Course</a> 🌟</p>
