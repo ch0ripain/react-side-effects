@@ -17,8 +17,8 @@ useEffect(() => {
 ```
 In the example above, <code>useEffect</code> accepts two arguments:
 
-- A function: this is the effect you want to run.
-- An array of dependencies: these determine when the effect runs again.
+- A function ➡️ this is the effect you want to run.
+- An array of dependencies ➡️ these determine when the effect runs again.
 
 Essentially, useEffect runs the provided function after the component has been rendered. This trigger a re-render, which can be problematic if your component is complex or you have multiple effects.
 Since the dependency array in this example is empty <code>([])</code>, the effect runs only once—after the initial render. If the array had dependencies, the effect would re-run whenever those dependencies changed. Dependencies can include functions, state, context values, and more.
