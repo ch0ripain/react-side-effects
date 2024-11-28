@@ -38,7 +38,7 @@ useEffect(() => {
 In this case, the effect confirms a deletion modal action after 3 seconds. Unlike the previous example, this one includes a dependency: <code>onConfirm</code> wich is a prop that leads to a function. If <code>onConfirm</code> changes, the effect will re-run.
 
 > [!NOTE]
-> JavaScript functions are objects, so even two functions with the same body are not considered equal when compared.
+> JavaScript functions are objects, so even two equal functions are not considered equal when compared.
 
 ### 🛠 Avoiding Infinite Re-renders with useCallback
 To prevent infinite re-renders caused by function recreations, I use the useCallback hook. Here's how:
